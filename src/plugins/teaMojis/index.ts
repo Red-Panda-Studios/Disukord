@@ -11,7 +11,7 @@ import definePlugin from "@utils/types";
 export default definePlugin({
     name: "TeaMojis",
     description: "Adds even more Kaomoji to discord! ٩(ˊᗜˋ*)",
-    authors: [Devs.disuko],
+    authors: [Devs.disuko, Devs.HoneyTeaaa],
     commands: [
         { name: "cad", description: "ฅ^•ﻌ•^ฅ" },
         { name: "dance", description: "٩(ˊᗜˋ*)و" },
