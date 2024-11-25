@@ -21,6 +21,7 @@ export default definePlugin({
         { name: "birthday", description: "( o˘◡˘o) ┌iii┐" },
         { name: "brotherew", description: "(·•᷄‎ࡇ•᷅ )" },
         { name: "puppycat", description: "( ｡ •̀ ᴖ •́ ｡)"},
+        { name: "castrate", description: "( ＾▽＾)っ✂╰⋃╯"},
 
     ].map(data => ({
         ...data,
