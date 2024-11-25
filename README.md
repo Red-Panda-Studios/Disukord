@@ -27,6 +27,7 @@ Disukord is the cutest fork of Vencord, for me to learn plugin development and a
 ## Installing / Uninstalling
 
 Visit https://vencord.dev/download
+
 Build from source https://docs.vencord.dev/installing/
 
 ## Join our Support/Community Server
