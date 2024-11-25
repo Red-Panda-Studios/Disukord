@@ -22,6 +22,7 @@ export default definePlugin({
         { name: "brotherew", description: "(·•᷄‎ࡇ•᷅ )" },
         { name: "puppycat", description: "( ｡ •̀ ᴖ •́ ｡)"},
         { name: "castrate", description: "( ＾▽＾)っ✂╰⋃╯"},
+        { name: "okbuddy", description: "ծ_o"},
 
     ].map(data => ({
         ...data,
