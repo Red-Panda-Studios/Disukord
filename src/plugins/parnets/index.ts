@@ -82,8 +82,6 @@ export default definePlugin({
                 const ctx = canvas.getContext("2d");
 
                 UploadManager.clearAll(cmdCtx.channel.id, DraftType.SlashCommand);
-
-
                 if (ctx) {
                     const backgroundImage = await loadImage("https://raw.githubusercontent.com/disukomusic/Disukord/e72e94ae28eea7e835ce5427e98b918acdf55dea/src/plugins/parnets/parnets.png");
 
