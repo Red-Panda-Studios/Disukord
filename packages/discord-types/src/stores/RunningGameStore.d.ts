@@ -21,8 +21,10 @@ export interface GameOverlayStatus {
     enabledOOP: boolean;
 }
 
+export type SystemServiceState = "unknown" | "running" | "stopped" | "error";
+
 export interface SystemServiceStatus {
-    state: string;
+    state: SystemServiceState;
 }
 
 export class RunningGameStore extends FluxStore {
@@ -51,7 +53,7 @@ export class RunningGameStore extends FluxStore {
     getSystemServiceStatus(service: string): SystemServiceStatus;
     getVisibleGame(): RunningGame | null;
     getVisibleRunningGames(): RunningGame[];
-    isDetectionEnabled(type?: string): boolean;
+    isDetectionEnabled(game: RunningGame): boolean;
     isGamesSeenLoaded(): boolean;
     isObservedAppRunning(app: string): boolean;
     isSystemServiceInitialized(service: string): boolean;
